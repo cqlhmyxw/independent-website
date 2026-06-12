@@ -4,6 +4,7 @@ import compress from 'vite-plugin-compression';
 
 export default defineConfig({
   plugins: [react(), compress({ brotli: true })],
+  base: '/independent-website/',
   build: {
     cssCodeSplit: true,
     minify: 'esbuild',
