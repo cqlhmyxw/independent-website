@@ -8,6 +8,6 @@ export default defineConfig({
   build: {
     cssCodeSplit: true,
     minify: 'esbuild',
-    outDir: 'dist',
+    outDir: 'docs',
   },
 });
